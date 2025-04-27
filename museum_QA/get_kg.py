@@ -28,7 +28,13 @@ class Neo4jConnector:
         except Exception as e:
             self.logger.error(f"Failed to connect to Neo4j: {e}")
             return False
-    
+        
+    def query(self, cypher_query, parameters=None):
+        """Execute a Cypher query against the Neo4j database and return the results"""
+        with self.driver.session() as session:
+            result = session.run(cypher_query, parameters or {})
+            return [record for record in result] 
+           
     def close(self):
         """Close the connection to the Neo4j database."""
         if self.driver:
