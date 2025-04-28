@@ -1,14 +1,9 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2024/2/18 15:53
-# @Author  : nongbin
-# @FileName: answer.py
-# @Software: PyCharm
-# @Affiliation: tfswufe.edu.cn
+
 from typing import Tuple, List, Any
 
-from qa.custom_tool_calling.function_tool import map_question_to_function, map_question_to_function_args
+from QA.custom_tool_calling.function_tool import map_question_to_function, map_question_to_function_args
 
-from qa.custom_tool_calling.question_parser import parse_question, check_entity, QuestionType
+from QA.custom_tool_calling.question_parser import parse_question, check_entity, QuestionType
 
 
 def get_answer(question: str,

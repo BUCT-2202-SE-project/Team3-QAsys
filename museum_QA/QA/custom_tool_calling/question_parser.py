@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2024/2/18 12:17
-# @Author  : nongbin
-# @FileName: question_parser.py
-# @Software: PyCharm
-# @Affiliation: tfswufe.edu.cn
+
 from typing import List
 
 from icecream import ic
@@ -11,8 +6,8 @@ from icecream import ic
 from lang_chain.client.client_factory import ClientFactory
 from model.graph_entity.search_model import _Value
 from model.graph_entity.search_service import search
-from qa.custom_tool_calling.prompt_templates import get_question_parser_prompt
-from qa.custom_tool_calling.question_type import QuestionType, QUESTION_MAP
+from QA.custom_tool_calling.prompt_templates import get_question_parser_prompt
+from QA.custom_tool_calling.question_type import QuestionType, QUESTION_MAP
 
 
 def parse_question(question: str) -> QuestionType:

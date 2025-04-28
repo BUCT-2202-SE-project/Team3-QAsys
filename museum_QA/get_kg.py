@@ -93,9 +93,9 @@ class Neo4jConnector:
 def get_knowledge_graph_connector():
     """Create and return a connector to the knowledge graph."""
     # Using the bolt protocol instead of HTTP
-    uri = "bolt://123.56.94.39:7687"
-    username = "neo4j"
-    password = "neo4j2202"
+    uri = 
+    username = 
+    password = 
     
     connector = Neo4jConnector(uri, username, password)
     if connector.connect():

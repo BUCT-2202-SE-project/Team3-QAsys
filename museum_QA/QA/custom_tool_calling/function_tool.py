@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2024/4/20 10:34
-# @Author  : nongbin
-# @FileName: function_tool.py
-# @Software: PyCharm
-# @Affiliation: tfswufe.edu.cn
+
 import json
 from typing import List, Tuple, Callable
 

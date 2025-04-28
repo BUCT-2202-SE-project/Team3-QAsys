@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2024/2/24 21:28
-# @Author  : nongbin
-# @FileName: question_type.py
-# @Software: PyCharm
-# @Affiliation: tfswufe.edu.cn
+
 from enum import Enum
 
 
