@@ -53,7 +53,7 @@ Team3-QAsys/
 
 ![智能对话界面](demo_png/chat.png)
 
-![系统演示](demo_png/demo.gif)
+![智能对话界面](demo_png/demo.gif)
 
 ## 👨‍💻 开发团队
 
