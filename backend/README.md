@@ -135,8 +135,8 @@ gunicorn -w 4 -b 0.0.0.0:5000 app:app
 backend/
 ├── app/                        # 应用主目录
 │   ├── __init__.py             # 应用初始化
-│   ├── graph/                  # 知识图谱模块
-│   │   └── neo4j_conn.py       # Neo4j连接
+│   ├── graph.py                # 知识图谱模块
+│   ├── utils.py                # 工具函数
 │   ├── routes/                 # 路由模块
 │   │   ├── __init__.py
 │   │   ├── auth/               # 认证相关
@@ -149,8 +149,6 @@ backend/
 │   │           ├── split_vectoring.py  # 文本分割与向量化
 │   │           ├── structure.py        # 结构化数据处理
 │   │           └── structured_index.json # 结构化索引
-│   └── utils/                  # 工具函数
-│       └── helpers.py          # 辅助函数
 ├── database/                   # 数据库相关
 │   └── mysql_client.py         # MySQL连接
 ├── app.py                      # 应用入口

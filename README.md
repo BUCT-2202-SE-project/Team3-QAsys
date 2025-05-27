@@ -17,23 +17,8 @@ MuseLink-千鉴 是一个基于大语言模型的智能知识问答系统，服�
 | 🎨 前端 | Vue3 + Vite，打造用户友好界面 |
 | ⚙️ 后端 | Python Flask，提供 RESTful API |
 | 🗃️ 数据库 | MySQL（用户数据）+ Neo4j（知识图谱）+ Milvus（语义向量检索） |
-| 🤖 AI模型 | 接入大语言模型 API（如 OpenAI）实现自然语言理解与生成 |
+| 🤖 AI模型 | 接入大语言模型 API（如 Deepseek-r1）实现自然语言理解与生成 |
 
-## 📁 项目结构
-
-```
-Team3-QAsys/
-├── backend/            # 后端代码
-│   ├── app/
-│   │   ├── routes/     # 路由定义
-│   │   ├── graph/      # 图谱处理
-│   │   └── utils/      # 工具函数
-│   └── README.md       # 后端使用说明
-├── frontend/           # 前端代码
-│   ├── src/            # 源码目录
-│   └── README.md       # 前端使用说明
-└── Meetings/           # 项目会议记录
-```
 
 ## 🚀 快速开始
 
@@ -59,8 +44,8 @@ Team3-QAsys/
 
 | 姓名 | 职责 |
 | ---- | ---- |
-| 🧭 许楷烨 | 项目组长，整体架构设计与 RAG 实现，PPT制作 |
-| 🧰 熊家怡 | 后端框架搭建，问答核心逻辑开发 |
-| 💻 李卓 | 前端实现，撰写需求与接口文档 |
+| 🧭 [许楷烨](https://github.com/defyodd) | 项目组长，整体架构设计与 RAG 实现，PPT制作 |
+| 🧰 [熊家怡](https://github.com/xiojoy) | 后端框架搭建，问答核心逻辑开发 |
+| 💻 [李卓](https://github.com/EzraLi) | 前端实现，撰写需求与接口文档 |
 | 📄 苗少凯 | 协助文档整理与信息归纳 |
-| 🧪 杨忆非 | 测试与演示材料准备 |
+| 🧪 [杨忆非](https://github.com/A1arak) | 测试与演示材料准备 |
