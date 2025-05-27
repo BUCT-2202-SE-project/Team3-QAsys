@@ -6,14 +6,6 @@ def get_db():
     """获取数据库连接，使用环境变量而非硬编码"""
     try:
         # 使用的数据在.env文件中
-        # 使用 current_app.config 而非硬编码值
-        # conn = pymysql.connect(
-        #     host=current_app.config['MYSQL_HOST'],
-        #     user=current_app.config['MYSQL_USER'],
-        #     password=current_app.config['MYSQL_PASSWORD'],
-        #     database=current_app.config['MYSQL_DATABASE'],
-        #     charset=current_app.config.get('MYSQL_CHARSET', 'utf8mb4')  # 默认 utf8mb4
-        # )
         conn = pymysql.connect(
             host=os.getenv('MYSQL_HOST', 'localhost'),
             user=os.getenv('MYSQL_USER', 'root'),
