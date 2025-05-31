@@ -1,7 +1,7 @@
 # Web框架
 Flask==2.2.3
 Flask-Cors==6.0.0
-Werkzeug==2.2.3
+Werkzeug==3.0.6
 gunicorn==23.0.0
 
 # 数据库
