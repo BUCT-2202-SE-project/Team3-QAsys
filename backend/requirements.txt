@@ -6,7 +6,7 @@ gunicorn==20.1.0
 
 # 数据库
 Flask-SQLAlchemy==3.0.3
-PyMySQL==1.0.3
+PyMySQL==1.1.1
 py2neo==2021.2.3
 pymilvus==2.2.8
 
